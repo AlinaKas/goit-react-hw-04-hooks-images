@@ -13,7 +13,6 @@ export default function ImageGalleryItem({ alt, src, onClick, srcBigImg }) {
 ImageGalleryItem.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
-  // id: PropTypes.number.isRequired,
   srcBigImg: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 };
